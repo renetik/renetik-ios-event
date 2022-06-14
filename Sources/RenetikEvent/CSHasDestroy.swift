@@ -2,7 +2,6 @@ import Foundation
 
 public protocol CSHasDestroy: CSAnyProtocol {
     var eventDestroy: CSEvent<Void> { get }
-    func onDestroy()
 }
 
 public extension CSHasDestroy {

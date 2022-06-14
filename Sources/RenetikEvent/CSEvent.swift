@@ -42,7 +42,7 @@ public class CSEventListener<Type>: CSRegistration {
 public class CSEvent<Type> {
 
 
-    public init() {}
+    public init() { }
 
     private var listeners = [CSEventListener<Type>]()
 
@@ -51,24 +51,24 @@ public class CSEvent<Type> {
     }
 
     @discardableResult
-    public func listen(function: @escaping (Type) -> Void) -> CSEventListener<Type> {
+    public func listen(function: @escaping (Type) -> Void) -> CSRegistration {
         listeners.add(CSEventListener(event: self, function: { _, argument in
             function(argument)
         }))
     }
 
     @discardableResult
-    public func listen(function: @escaping (CSEventListener<Type>, Type) -> Void) -> CSEventListener<Type> {
+    public func listen(function: @escaping (CSEventListener<Type>, Type) -> Void) -> CSRegistration {
         listeners.add(CSEventListener(event: self, function: function))
     }
 
     @discardableResult
-    @inlinable public func listenOnce(function: @escaping Func) -> CSEventListener<Type> {
+    @inlinable public func listenOnce(function: @escaping Func) -> CSRegistration {
         listenOnce { argument in function() }
     }
 
     @discardableResult
-    @inlinable public func listenOnce(function: @escaping ArgFunc<Type>) -> CSEventListener<Type> {
+    @inlinable public func listenOnce(function: @escaping ArgFunc<Type>) -> CSRegistration {
         listen(function: { listener, argument in
             listener.cancel()
             function(argument)
@@ -89,7 +89,7 @@ public extension CSEvent where Type == Void {
     func fire() -> Self { fire(()); return self }
 
     @discardableResult
-    @inlinable func listenOnce(function: @escaping Func) -> CSEventListener<Type> {
+    @inlinable func listenOnce(function: @escaping Func) -> CSRegistration {
         listen(function: { listener, argument in
             listener.cancel()
             function()
@@ -97,7 +97,7 @@ public extension CSEvent where Type == Void {
     }
 
     @discardableResult
-    func listen(function: @escaping Func) -> CSEventListener<Type> {
+    func listen(function: @escaping Func) -> CSRegistration {
         listeners.add(CSEventListener(event: self, function: { _, argument in
             function()
         }))
