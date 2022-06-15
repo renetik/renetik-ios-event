@@ -19,10 +19,11 @@ let package = Package(
     targets: [
         .target(
             name: "RenetikEvent",
-            dependencies: [
-                .product(name: "RenetikCore", package: "renetik-ios-core"),
-            ]
+            dependencies: [.product(name: "RenetikCore", package: "renetik-ios-core")]
         ),
+        .testTarget(
+            name: "RenetikEventTests",
+            dependencies: ["RenetikEvent"]),
     ],
     swiftLanguageVersions: [
         .v5

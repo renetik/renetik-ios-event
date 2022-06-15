@@ -39,13 +39,8 @@ open class CSEventPropertyImpl<T>: CSEventPropertyProtocol where T: Equatable {
 }
 
 // In android CSEventPropertyBase
-open class CSEventProperty<T>: CSBase, CSEventPropertyProtocol where T: Equatable {
+open class CSEventProperty<T>: CSObject, CSEventPropertyProtocol where T: Equatable {
     private var onApply: ((T) -> ())?
-
-    public init(parent: CSEventOwnerHasDestroy? = nil, onApply: ((T) -> ())? = nil) {
-        self.onApply = onApply
-        super.init(parent: parent)
-    }
 
     public init(onApply: ((T) -> ())? = nil) {
         self.onApply = onApply
@@ -53,7 +48,7 @@ open class CSEventProperty<T>: CSBase, CSEventPropertyProtocol where T: Equatabl
 
     public var value: T {
         get { fatalError("value has not been implemented") }
-        set {}
+        set { }
     }
 
     private let eventChange: CSEvent<T> = event()
@@ -63,7 +58,7 @@ open class CSEventProperty<T>: CSBase, CSEventPropertyProtocol where T: Equatabl
         eventChange.listen { function($0) }
     }
 
-    public var description: String { "\(super.description):\(value)" }
+    public var description: String { "\(super.description)+value:\(value)" }
 
     @discardableResult
     public func apply() -> Self { onValueChanged(value); return self }
