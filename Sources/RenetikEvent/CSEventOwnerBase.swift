@@ -1,6 +1,6 @@
 import Foundation
 
-open class CSBase: CSObject, CSEventOwner {
+open class CSEventOwnerBase: CSObject, CSEventOwner {
     public let registrations = CSRegistrations()
     deinit {
         registrations.cancel()

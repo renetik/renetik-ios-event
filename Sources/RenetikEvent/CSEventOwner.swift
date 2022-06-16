@@ -3,9 +3,15 @@ public protocol CSEventOwner {
 }
 
 public extension CSEventOwner {
+
     @discardableResult
     func register(_ registration: CSRegistration) -> CSRegistration {
         registration.also { registrations.add($0) }
+    }
+
+    @discardableResult
+    func register(_ registration: CSRegistration?) -> CSRegistration? {
+        registration?.also { registrations.add($0) }
     }
 
     @discardableResult
@@ -22,11 +28,6 @@ public extension CSEventOwner {
     @discardableResult
     func remove(_ registration: CSRegistration) -> CSRegistration {
         registration.also { registrations.remove($0) }
-    }
-
-    @discardableResult
-    func register(_ registration: CSRegistration?) -> CSRegistration? {
-        registration?.also { registrations.add($0) }
     }
 
     @discardableResult
