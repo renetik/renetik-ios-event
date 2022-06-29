@@ -1,0 +1,551 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 1,
+      "symbol": "CSEvent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 1,
+      "symbol": "event()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 2,
+      "symbol": "event()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 4,
+      "symbol": "CSEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 6,
+      "symbol": "CSEvent.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 10,
+      "symbol": "CSEvent.fire(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 15,
+      "symbol": "CSEvent.listen(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 22,
+      "symbol": "CSEvent.listen(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 27,
+      "symbol": "CSEvent.listenOnce(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 32,
+      "symbol": "CSEvent.listenOnce(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 42,
+      "symbol": "CSEvent.clear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventArgument.swift",
+      "line": 1,
+      "symbol": "CSEventArgument",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventArgument.swift",
+      "line": 2,
+      "symbol": "CSEventArgument.registration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventArgument.swift",
+      "line": 3,
+      "symbol": "CSEventArgument.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventListener.swift",
+      "line": 1,
+      "symbol": "CSEventListener",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventListener.swift",
+      "line": 2,
+      "symbol": "CSEventListener.CSEventFunction",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventListener.swift",
+      "line": 14,
+      "symbol": "CSEventListener.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 1,
+      "symbol": "CSEventOwner",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 2,
+      "symbol": "CSEventOwner.registrations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 5,
+      "symbol": "CSEventOwner",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 8,
+      "symbol": "CSEventOwner.register(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 13,
+      "symbol": "CSEventOwner.register(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 18,
+      "symbol": "CSEventOwner.register(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 24,
+      "symbol": "CSEventOwner.cancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 29,
+      "symbol": "CSEventOwner.remove(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 34,
+      "symbol": "CSEventOwner.cancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 38,
+      "symbol": "CSEventOwner.cancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 42,
+      "symbol": "CSEventOwner.cancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwner.swift",
+      "line": 47,
+      "symbol": "CSEventOwner.remove(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwnerBase.swift",
+      "line": 3,
+      "symbol": "CSEventOwnerBase",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventOwnerBase.swift",
+      "line": 4,
+      "symbol": "CSEventOwnerBase.registrations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventTypeVoid.swift",
+      "line": 4,
+      "symbol": "CSEvent.fire()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventTypeVoid.swift",
+      "line": 7,
+      "symbol": "CSEvent.listenOnce(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEventTypeVoid.swift",
+      "line": 15,
+      "symbol": "CSEvent.listen(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistration.swift",
+      "line": 1,
+      "symbol": "CSRegistration",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistration.swift",
+      "line": 2,
+      "symbol": "CSRegistration.isActive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistration.swift",
+      "line": 4,
+      "symbol": "CSRegistration.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 1,
+      "symbol": "CSRegistrations",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 3,
+      "symbol": "CSRegistrations.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 10,
+      "symbol": "CSRegistrations.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 19,
+      "symbol": "CSRegistrations.addAll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 29,
+      "symbol": "CSRegistrations.add(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 41,
+      "symbol": "CSRegistrations.add(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 52,
+      "symbol": "CSRegistrations.cancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 60,
+      "symbol": "CSRegistrations.remove(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSRegistrations.swift",
+      "line": 67,
+      "symbol": "CSRegistrations.setActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 2,
+      "symbol": "CSEventPropertyProtocol.isSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 9,
+      "symbol": "CSEventPropertyProtocol.toggle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 12,
+      "symbol": "CSEventPropertyProtocol.setFalse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 15,
+      "symbol": "CSEventPropertyProtocol.setTrue()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 18,
+      "symbol": "CSEventPropertyProtocol.onFalse(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 23,
+      "symbol": "CSEventPropertyProtocol.onTrue(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 27,
+      "symbol": "CSEventPropertyProtocol.isTrue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 32,
+      "symbol": "CSEventPropertyProtocol.isFalse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 39,
+      "symbol": "CSEventPropertyProtocol.string",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 44,
+      "symbol": "CSEventPropertyProtocol.text(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 46,
+      "symbol": "CSEventPropertyProtocol.string(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventProperty+.swift",
+      "line": 48,
+      "symbol": "CSEventPropertyProtocol.clear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyFunctions.swift",
+      "line": 1,
+      "symbol": "property(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 1,
+      "symbol": "CSEventProperty",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 6,
+      "symbol": "CSEventProperty.init(onApply:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 10,
+      "symbol": "CSEventProperty.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 16,
+      "symbol": "CSEventProperty.onChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 20,
+      "symbol": "CSEventProperty.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 23,
+      "symbol": "CSEventProperty.apply()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 25,
+      "symbol": "CSEventProperty.onValueChanged(_:fire:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 31,
+      "symbol": "CSEventPropertyImpl",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 35,
+      "symbol": "CSEventPropertyImpl.init(value:onApply:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 40,
+      "symbol": "CSEventPropertyImpl.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyImpl.swift",
+      "line": 46,
+      "symbol": "CSEventPropertyImpl.value(_:fireEvents:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 1,
+      "symbol": "CSEventPropertyProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 1,
+      "symbol": "CSEventPropertyProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 3,
+      "symbol": "CSEventPropertyProtocol.onChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 6,
+      "symbol": "CSEventPropertyProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 7,
+      "symbol": "CSEventPropertyProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 8,
+      "symbol": "CSEventPropertyProtocol.onChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSEventPropertyProtocol.swift",
+      "line": 38,
+      "symbol": "CSEventPropertyProtocol",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/Property/CSPropertyStore.swift",
+      "line": 1,
+      "symbol": "CSPropertyStore",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event"
+}
