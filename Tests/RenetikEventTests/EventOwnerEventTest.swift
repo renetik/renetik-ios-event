@@ -1,11 +1,13 @@
 import XCTest
 @testable import RenetikEvent
 
-final class EventOwnerTests: XCTestCase {
+/**
+ * Event unregister after owner niled
+ */
+final class EventOwnerEventTest: XCTestCase {
 
-    var owner: CSEventOwner? = CSEventOwnerBase()
-
-    func testListen() throws {
+    func testUnregisteredAfterNilled() throws {
+        var owner: CSEventOwner? = CSEventOwnerBase()
         let event = event()
         var count = 0
         owner!.register(event.listen { count += 1 })

@@ -1,31 +1,78 @@
 import XCTest
 @testable import RenetikEvent
 
+/**
+ * Simple event property use cases
+ */
 class EventPropertyTests: XCTestCase {
-    
-    class Class1 {
-        let prop = property("Class1InititalValue")
+
+    func testOnChange() throws {
+        let property = property("initial")
+        var count = 0
+        property.onChange { count += 1 }
+        property.value = "second"
+        property.value = "third"
+        XCTAssertEqual(count, 2)
+        XCTAssertEqual("third", property.value)
     }
 
-    class Class2: CSEventOwnerBase {
-        let prop = property("Class2InititalValue")
-        init(arugment: Class1) {
-            super.init()
-            register(arugment.prop
-                    .onChange { [unowned self] in prop.value = $0 })
+    func testOnApply() throws {
+        var count = 0
+        let property = property("initial") { _ in count += 1 }.apply()
+        property.value = "second"
+        property.value = "third"
+        XCTAssertEqual(count, 3)
+        XCTAssertEqual("third", property.value)
+    }
+
+    func testArgListen() throws {
+        var count = 0
+        let property = property(0) { count += 1 }
+        property.value += 2
+        property.value += 3
+        XCTAssertEqual(5, property.value)
+        XCTAssertEqual(2, count)
+    }
+
+    func testEquals() throws {
+        var count = 0
+        let property = property(""){ count += 1 }
+        property.value = "second"
+        property.value = "second"
+        XCTAssertEqual(count, 1)
+        XCTAssertEqual("second", property.value)
+    }
+
+    func testOnChangeOnce() throws {
+        var count = 0
+        let property = property("")
+        property.onChangeOnce { count += 1 }
+        property.value = "second"
+        property.value = "third"
+        XCTAssertEqual(count, 1)
+        XCTAssertEqual("third", property.value)
+    }
+
+    func testEventCancel() throws {
+        var count = 0
+        let property = property(0)
+        property.onChange { registration, value in
+            count += value
+            if count > 2 { registration.cancel() }
         }
+        property.value = 1
+        property.value = 2
+        property.value = 3
+        XCTAssertEqual(count, 3)
     }
 
-    let class1 = Class1()
-    var class2: Class2? = nil
-
-    func testListen() throws {
-        class2 = Class2(arugment: class1)
-        XCTAssertEqual(class1.prop.value, "Class1InititalValue")
-        class1.prop.value = "Class1SecondValue"
-        XCTAssertEqual(class2?.prop.value, "Class1SecondValue")
-        class2 = nil
-        class1.prop.value = "Class1ThirdValue"
-        XCTAssertEqual(class2?.prop.value, nil)
+    func testEventPause() throws {
+        var count = 0
+        let property = property(0)
+        let registration = property.onChange { count += $1 }
+        registration.pause { property.value = 1 }
+        XCTAssertEqual(count, 0)
+        property.value = 2
+        XCTAssertEqual(count, 2)
     }
 }

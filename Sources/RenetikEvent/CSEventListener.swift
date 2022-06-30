@@ -1,7 +1,7 @@
 public class CSEventListener<Type>: CSRegistration {
     public typealias CSEventFunction = (CSEventListener<Type>, Type) -> Void
 
-    private unowned let event: CSEvent<Type>
+    private weak var event: CSEvent<Type>?
     private let function: CSEventFunction
 
     init(event: CSEvent<Type>, function: @escaping CSEventFunction) {
@@ -14,7 +14,7 @@ public class CSEventListener<Type>: CSRegistration {
     public override func cancel() {
         if canceled { return }
         isActive = false
-        event.remove(listener: self)
+        event?.remove(listener: self)
         canceled = true
     }
 
