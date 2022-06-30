@@ -1,4 +1,4 @@
-extension CSEvent {
+public extension CSEvent {
 
     @discardableResult
     func listen(function: @escaping (CSRegistration, Type) -> Void) -> CSRegistration {
