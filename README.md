@@ -8,6 +8,7 @@ Used as library in many projects and now developing it for iOS version of app Re
 ## Installation
 You can install using swift package manager for now using latest released version or master.
 
+## Examples
 ```
 /**
  * Simple event use cases
