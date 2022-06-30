@@ -87,7 +87,6 @@ final class EventTests: XCTestCase {
     }
 }
 ```
-
 ```
 /**
  * Simple event property use cases
@@ -165,7 +164,6 @@ class EventPropertyTests: XCTestCase {
     }
 }
 ```
-
 ```
 /**
  * Event unregister after owner niled
