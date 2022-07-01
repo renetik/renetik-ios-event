@@ -2,9 +2,51 @@
   "warnings": [
     {
       "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent+.swift",
+      "line": 4,
+      "symbol": "CSEvent.listen(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent+.swift",
+      "line": 11,
+      "symbol": "CSEvent.listen(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent+.swift",
+      "line": 19,
+      "symbol": "CSEvent.listen(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent+.swift",
+      "line": 26,
+      "symbol": "CSEvent.listenOnce(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent+.swift",
+      "line": 34,
+      "symbol": "CSEvent.listenOnce(function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent+.swift",
       "line": 44,
       "symbol": "CSEvent.fire()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/renetik/Development/renetik-instruments-ios/workspace/renetik-ios-event/Sources/RenetikEvent/CSEvent.swift",
+      "line": 1,
+      "symbol": "CSEvent",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {

@@ -6,7 +6,7 @@ import XCTest
  */
 final class EventOwnerEventTest: XCTestCase {
 
-    func testUnregisteredAfterNilled() throws {
+    func testUnregisteredAfterNiled() throws {
         var owner: CSEventOwner? = CSEventOwnerBase()
         let event = event()
         var count = 0

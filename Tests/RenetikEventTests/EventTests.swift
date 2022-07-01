@@ -59,12 +59,15 @@ final class EventTests: XCTestCase {
         let event: CSEvent<String> = event()
         var value: String? = nil
         event.listen {
-            $0.cancel()
+            if $1 == "second" { $0.cancel() }
             value = $1
         }
         event.fire("first")
         XCTAssertEqual("first", value)
         event.fire("second")
+        XCTAssertEqual("second", value)
+        event.fire("third")
+        XCTAssertEqual("second", value)
     }
 
     func testEventPause() throws {
