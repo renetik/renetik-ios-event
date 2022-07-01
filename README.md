@@ -171,7 +171,7 @@ class EventPropertyTests: XCTestCase {
  */
 final class EventOwnerEventTest: XCTestCase {
 
-    func testUnregisteredAfterNilled() throws {
+    func testUnregisteredAfterNiled() throws {
         var owner: CSEventOwner? = CSEventOwnerBase()
         let event = event()
         var count = 0
@@ -198,7 +198,7 @@ class EventOwnerPropertyTest: XCTestCase {
             register(argument?.string.onChange { [unowned self] in string.value = $0 })
         }
     }
-    func testUnregisteredAfterNilled() throws {
+    func testUnregisteredAfterNiled() throws {
         let instance1 = SomeClass()
         var instance2: SomeClass? = SomeClass(argument: instance1)
         let instance3 = SomeClass(argument: instance2)
