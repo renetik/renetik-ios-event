@@ -192,24 +192,22 @@ final class EventOwnerEventTest: XCTestCase {
  */
 class EventOwnerPropertyTest: XCTestCase {
     class SomeClass: CSEventOwnerBase {
-        let prop = property("initial value")
-        init(arugment: SomeClass? = nil) {
+        let string = property("initial value")
+        init(argument: SomeClass? = nil) {
             super.init()
-            arugment?.also {
-                register($0.prop.onChange { [unowned self] in prop.value = $0 })
-            }
+            register(argument?.string.onChange { [unowned self] in string.value = $0 })
         }
     }
     func testUnregisteredAfterNilled() throws {
-        let class1 = SomeClass()
-        var class2: SomeClass? = SomeClass(arugment: class1)
-        let class3 = SomeClass(arugment: class2)
-        XCTAssertEqual(class3.prop.value, "initial value")
-        class1.prop.value = "first value"
-        XCTAssertEqual(class3.prop.value, "first value")
-        class2 = nil
-        class1.prop.value = "second value"
-        XCTAssertEqual(class3.prop.value, "first value")
+        let instance1 = SomeClass()
+        var instance2: SomeClass? = SomeClass(argument: instance1)
+        let instance3 = SomeClass(argument: instance2)
+        XCTAssertEqual(instance3.string.value, "initial value")
+        instance1.string.value = "first value"
+        XCTAssertEqual(instance3.string.value, "first value")
+        instance2 = nil
+        instance1.string.value = "second value"
+        XCTAssertEqual(instance3.string.value, "first value")
     }
 }
 ```
