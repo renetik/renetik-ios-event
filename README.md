@@ -12,7 +12,7 @@ I am open to [Hire](https://renetik.github.io) or investment in my mobile app mu
 You can install using swift package manager for now using latest released version or master.
 
 ## Examples
-```
+```swift
 /**
  * Simple event use cases
  */
@@ -90,7 +90,7 @@ final class EventTests: XCTestCase {
     }
 }
 ```
-```
+```swift
 /**
  * Simple event property use cases
  */
@@ -167,7 +167,7 @@ class EventPropertyTests: XCTestCase {
     }
 }
 ```
-```
+```swift
 /**
  * Event unregister after owner niled
  */
@@ -187,8 +187,7 @@ final class EventOwnerEventTest: XCTestCase {
     }
 }
 ```
-
-```
+```swift
 /**
  * Event property unregister after owner niled
  */
